@@ -1,0 +1,61 @@
+## VS Code / JetBrains / Visual Studio environment configs
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build outputs
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+ARM/
+ARM64/
+$DirectoryBuild~/
+
+## C++ / C-- Compilation artifacts
+*.obj
+*.ilk
+*.pdb
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.rsp
+*.pgc
+*.pgd
+*.meta
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.exe
+*.so
+*.dylib
+
+## C++ Linker & Cache files
+*.log
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.ipch
+*.db
+*.opendb
+
+## NuGet & Package Managers
+packages/
+!.nuget/
+project.lock.json
+project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
